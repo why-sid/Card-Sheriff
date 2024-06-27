@@ -1,0 +1,144 @@
+/* style.css */
+
+/* General styling */
+body {
+    font-family: 'Comic Sans MS', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Prevent horizontal scrollbars */
+    background-color: #0f0472; /* Blue background */
+}
+
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff; /* White background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: relative; /* Ensure particles are in the background */
+    z-index: 1; /* Ensure it's above particles */
+}
+
+h1 {
+    color: #333; /* Dark gray */
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+select, input[type="range"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button {
+    background-color: #0f0472; /* Blue color */
+    color: #fff; /* White text */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0f0472; /* Darker blue color on hover */
+}
+
+/* Loading animation */
+/* style.css */
+
+/* Loading animation */
+/* style.css */
+
+/* Loading animation */
+#loading-container {
+    text-align: center;
+    margin-top: 20px;
+    display: none; /* Hide initially */
+}
+
+#loading-animation {
+    width: 40px;
+    height: 40px;
+    border: 4px solid transparent; /* Transparent border */
+    border-top-color: #0f0472; /* Blue-grey border */
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 10px; /* Center horizontally and add space below */
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loading-message {
+    color: #0f0472; /* Blue-grey text */
+    font-size: 14px;
+}
+  
+
+/* Results section */
+#results {
+    margin-top: 20px;
+    display: none; /* Hide initially */
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.grid-item {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#results p {
+    margin: 0; /* Reset default margin */
+}
+
+
+#results h2 {
+    color: #0f0472; /* Blue */
+}
+
+#confusion_matrix {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Particle Animation Styles */
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #007bff; /* Blue background */
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
