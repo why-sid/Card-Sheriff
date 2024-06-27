@@ -29,8 +29,7 @@ This project allows users to train various machine learning models using differe
 ## Installation
 
 1. Clone the repository:
-- git clone <https://github.com/why-sid/Card-Sheriff.git>
-- cd Card Sheriff
+git clone <https://github.com/why-sid/Card-Sheriff.git>
 
 2. Install the dependencies
 pip install -r requirements.txt
@@ -49,5 +48,5 @@ python app.py
 
 ## Credits
 
-- Developed by why-sid
+- Developed by [why-sid](https://github.com/why-sid)
 - Particle animations powered by particles.js
