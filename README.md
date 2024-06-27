@@ -1,4 +1,4 @@
-# Machine Learning Model Trainer
+# Card Sheriff
 
 This project allows users to train various machine learning models using different options such as model selection, data balancing, and test size adjustment. It provides visual feedback through particle animations and displays model evaluation metrics including accuracy, F1 score, precision, recall, and a confusion matrix.
 
